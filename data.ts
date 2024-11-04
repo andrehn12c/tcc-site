@@ -5,4 +5,6 @@ export const menus = [
     {title: 'Página inicial'},
     {title: 'Referências'},
     {title: 'Integrantes'},
+    {title: 'Dicas'},
+    {title: 'Jogo'},
 ]

@@ -19,10 +19,12 @@ function Download() {
                 <button className="absolute flex hover:pb-[100px] hover:text-gray-100">
                   <li className="mr-4">PRODUTO</li>
                   <img className="w-6 group-hover:rotate-180" src={Seta} alt="seta" />
-                  <div className="hidden group-hover:block pl-4 pr-28 w-fit list-none rounded-xl absolute bg-dark_green lg:opacity-90 mt-8 ">
-                    <ul className="text-left">
+                  <div className="hidden group-hover:block pl-4 pr-28 w-fit list-none rounded-xl absolute bg-dark_green lg:opacity-90 mt-8  ">
+                    <ul className="text-left ">
                       <li className="text-[8px] lg:text-[16px]  mt-2 mb-8 hover:text-gray-200 text-white"><a href="#"></a> <Link to="/Funcionamento">FUNCIONAMENTO</Link></li>
-                      <li className="text-[8px] lg:text-[16px]  mb-4 hover:text-gray-200 text-white"><a href="#"></a> <Link to="/Componentes">COMPONENTES</Link></li>
+                      <li className="text-[8px] lg:text-[16px]  mb-8 hover:text-gray-200 text-white"><a href="#"></a> <Link to="/Componentes">COMPONENTES</Link></li>
+                      <li className="text-[8px] lg:text-[16px]  mb-4 hover:text-gray-200 text-white"><a href="#"></a> <Link to="/JOGO">JOGO</Link></li>
+                      
                     </ul>
                   </div>
                 </button>
@@ -30,6 +32,7 @@ function Download() {
               <li className="text-[8px] lg:text-[16px] lg:pl-28 hover:text-gray-200 text-white"><a href="#"></a> <Link to="/">PÁGINA INICIAL</Link></li>
               <li className="text-[8px] lg:text-[16px] hover:text-gray-200 text-white"><a href="#"></a> <Link to="/referencias">REFERÊNCIAS</Link></li>
               <li className="text-[8px] lg:text-[16px] hover:text-gray-200 text-white"><a href="#"></a> <Link to="/integrantes">INTEGRANTES</Link></li>
+              <li className="text-[8px] lg:text-[16px] hover:text-gray-200 text-white"><a href="#"></a> <Link to="/Dicas">DICAS</Link></li>
               <button className="-mt-6 px-6 rounded-2xl bg-dark_green shadow-2xl text-white ml-[500px] mb-2 hover:bg-bg_green hover:border border-white">
               <li className="text-[8px] lg:text-[16px] hover:text-gray-200 "><a href="#"></a> <Link to="/Download">DOWNLOAD</Link></li>
               </button>
@@ -48,9 +51,11 @@ function Download() {
                 <img className="w-24 ml-8 mt-20 pb-10" src={Logo} alt="logo" />
                 <li className="text-[8px] lg:text-[16px]  mb-8 hover:text-gray-200 text-white border-t-2 border-gray-300 pt-10 mx-2 px-10"><a href="#"></a> <Link to="/Funcionamento">FUNCIONAMENTO</Link></li>
                 <li className="text-[8px] lg:text-[16px]  mt-2 mb-8 hover:text-gray-200 text-white  px-10"><a href="#"></a> <Link to="/Componentes">COMPONENTES</Link></li>
-                <li className="text-[8px] lg:text-[16px] hover:text-gray-200 text-white       px-10 mb-6"><a href="#"></a> <Link to="/">PAGINA INICIAL</Link></li>
-                <li className="text-[8px] lg:text-[16px]  mb-8 hover:text-gray-200 text-white       px-10"><a href="#"></a> <Link to="/Integrantes">INTEGRANTES</Link></li>
-                <li className="text-[8px] lg:text-[16px]  mb-8 hover:text-gray-200 text-white       border-b-2 border-gray-300 pb-10 mx-2 px-10"><a href="#"></a> <Link to="/Referencias">REFERENCIAS</Link></li>
+                <li className="text-[8px] lg:text-[16px] hover:text-gray-200 text-white px-10 mb-6"><a href="#"></a> <Link to="/">PAGINA INICIAL</Link></li>
+                <li className="text-[8px] lg:text-[16px]  mb-8 hover:text-gray-200 text-white px-10"><a href="#"></a> <Link to="/Integrantes">INTEGRANTES</Link></li>
+                <li className="text-[8px] lg:text-[16px]  mb-8 hover:text-gray-200 border-gray-300 mx-2 px-10"><a href="#"></a> <Link to="/Referencias">REFERENCIAS</Link></li>
+                <li className="text-[8px] lg:text-[16px]  mb-8 hover:text-gray-200 text-white px-10"><a href="#"></a> <Link to="/Jogo">JOGO</Link></li>
+                <li className="text-[8px] lg:text-[16px]  mb-8 hover:text-gray-200 text-white border-b-2 border-gray-300 pb-10 mx-2 px-10"><a href="#"></a> <Link to="/Dicas">DICAS</Link></li>
                 <button className="text-[14px]  px-4 py-2 rounded-xl bg-dark_green shadow hover:bg-bg_green hover:border border-white"><a href="/Download">Download</a></button>
               </ul>
               
@@ -99,6 +104,9 @@ function Download() {
           <li className="text-[8px] lg:text-[14px] lg:mb-2 text-branco hover:text-gray-200">
             <Link to="/componentes">componentes</Link>
           </li>
+          <li className="text-[8px] lg:text-[14px] lg:mb-2 text-branco hover:text-gray-200">
+            <Link to="/Jogo">jogo</Link>
+          </li>
         </ol>
 
         
@@ -113,6 +121,9 @@ function Download() {
           </li>
           <li className="px-8 text-[8px] lg:text-[14px] lg:mb-2 text-branco hover:text-gray-200">
           <Link to="/download">download</Link>
+          </li>
+          <li className="px-8 text-[8px] lg:text-[14px] lg:mb-2 text-branco hover:text-gray-200">
+          <Link to="/Dicas">dicas</Link>
           </li>
         </ol>
       </div>

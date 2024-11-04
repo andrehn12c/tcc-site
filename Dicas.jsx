@@ -1,20 +1,14 @@
-import React from 'react';
+import React from 'react'
+
 import { Link } from 'react-router-dom';
 import menuMobileTop from '../assets/menu_mobile_top.svg';
-import Malu from "../assets/malu.png"
-import Paiva from "../assets/paiva.png"
-import Andre from "../assets/andre.png"
-import Carol from "../assets/carol.png"
-import Logo from '../assets/logo2.svg';
+import Logo from '../assets/logo2.svg'
 import Seta from '../assets/seta.svg'
 import Hamburguer from "../assets/Hamburguer.svg"
 
-
-function Integrantes() {
+export default function Dicas() {
   return (
-    <div>
-    <div>
-      <div className="relative min-h-screen flex flex-col">
+    <div className="relative flex flex-col">
       <div className="bg-gradient-to-b from-dark_green to-bg_green shadow-2xl lg:pb-4">
       <div className="flex">
           <a href="/"><img src={Logo} className="hidden lg:inline justify-center w-24 lg:w-52 lg:mr-48 " alt="Logo" /></a>
@@ -70,60 +64,95 @@ function Integrantes() {
         <a href="/"><img src={Logo} alt=""className="w-32 ml-20 -mt-2 -py-2 justify-center" /></a>
       </div>
       </div>
-    
-<h1 className="font-semibold text-[20px] md:text-[24px] lg:text-[26px] xl:text-[28px] 2xl:text-[32px] lg:ml-32 text-title_green lg:my-12 mt-10 mb-8 mx-5  ">Integrantes :</h1>
-<body className="lg:grid grid-rows-2  grid-flow-col gap-4 ">
-  <div className="bg-gradient-to-r from-green-500 to-green-700 mg-5 mt-10 mx-5 text-[10px]/[20px] pl-[10px] rounded-2xl flex items-center lg:my-5 lg:ml-32 lg:pl-5">
+      {/*Banner*/}
+    <div>
+      </div>   
+      <h1 className="mt-5 px-8 font-semibold text-[20px] lg:text-[40px] text-title_green mb-10 lg:mb-16 lg:mt-16 lg:pl-[40%]">Dicas produtivas:</h1>
+      {/* Vídeo Responsivo */}
+      <div className="flex justify-center">
 
-    <img src={Malu} className="w-20 max-h-48 lg:size-28 2x1:size-32 lg:my-5" alt="Malu" />
-    
-    <li className="list-none  my-2">
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white">NOME:  Maria Luisa Ferraz</p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href=" https://www.linkedin.com/in/malu-f-11b3472b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-">LINKEDIN: Malu Ferraz</a></p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href=" mariamaluferraz@gmail.com">E-MAIL: mariamaluferraz@gmail.com</a></p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href="https://www.instagram.com/malu_fz?igsh=cjEwamt0OG85dHdo">INSTAGRAM: @Malu_fz</a></p>
-    </li>
-  </div>
+      <iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/watch?v=Cu_rLGgsHRc" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo1"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+
+        <iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/watch?v=YnZIK3pBQps&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=2" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo2"
+        frameBorder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+
+        <iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/watch?v=2qTmt_0z2Lg&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=3" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo3"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe><iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/watch?v=uYKsesMbssE&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=4" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo4"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>        
+
+      </div>
+    <hr />
+    <div className="flex justify-center">
+    <iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/watch?v=d9fkhH7uocg&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=5" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/watch?v=mp83kEAakoA&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=6" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe><iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/watch?v=7wuQl8gKe-I&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=7" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe><iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe> 
+    </div>
+    <div className="flex justify-center">
+    <iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe><iframe
+        className="w-96 h-64  border-8 "
+        src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+        title="Vídeo"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe> 
+    </div>
+    <div>
 
 
+    </div>
+      
 
-  <div className="bg-gradient-to-r from-green-500 to-green-700 my-5 mx-5 text-[10px]/[20px] pl-[10px] rounded-2xl flex items-center lg:ml-32 lg:pl-5">
-    <img src={Paiva} className="w-20 max-h-48 lg:size-28 2x1:size-32 lg:my-5" alt="Eduardo" />
-    <li className="list-none  my-2">
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white">NOME:  Eduardo Paiva Cavalcante</p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href="https://www.linkedin.com/in/eduardo-paiva-86aa572b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-">LINKEDIN: Eduardo Paiva</a></p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href="https://www.instagram.com/eduardopaiva_c?igsh=dzUzNWg5anRhOWY1">E-MAIL: eduardo.pcavalcante@eaportal.org</a></p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href="https://www.instagram.com/eduardopaiva_c?igsh=dzUzNWg5anRhOWY1">INSTAGRAM: @eduardopaiva_c</a></p>
-    </li>
-  </div>
-
-  <div className="bg-gradient-to-r from-green-500 to-green-700 my-5 mx-5 text-[10px]/[20px] pl-[10px] rounded-2xl flex items-center lg:mr-32 lg:pl-5">
-    <img src={Andre} className="w-20 max-h-48 lg:size-28 2x1:size-32 lg:my-5" alt="Andre" />
-    <li className="list-none  my-2">
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white">NOME: André Henrique de Almeida Nascimento</p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href=" https://www.linkedin.com/in/andr%C3%A9-henrique-d-b04674255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-">LINKEDIN: André Henrique de Almeida Nascimento</a></p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href="andrehenriquenascimento1@gmail.com">E-MAIL: andrehenriquenascimento1@gmail.com</a></p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1"href="https://www.instagram.com/andrenacss?igsh=MTBoY24yczFwOWJlZQ==">INSTAGRAM: @andrenacss</a></p>
-    </li>
-  </div>
-
-  <div className="bg-gradient-to-r from-green-500 to-green-700 mt-5 mb-40 mx-5 text-[10px]/[20px] pl-[10px] rounded-2xl flex items-center lg:mb-5  lg:mr-32 lg:pl-5 ">
-    <img src={Carol} className="w-20 max-h-48 lg:size-28 2x1:size-32 lg:my-5" alt="Carol" />
-    <li className="list-none my-2">
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white">NOME: Ana Carolina Feliciana Martins</p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href=" https://www.linkedin.com/in/ana-carolina-m-7b5838276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-">LINKEDIN: Ana Carolina Martins</a></p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href="anacarolinam665@gmail.com">E-MAIL: anacarolinam665@gmail.com</a></p>
-      <p className="pl-[10px] md:text-[12px]/[24px] lg:text-[16px]/[28px] text-white"><a className="hover:text-dark_green  hover:underline decoration-1" href="https://www.instagram.com/caroliinaaxs_?igsh=MWU3Zmw5aHE0MDgwZA==
-">INSTAGRAM: @Caroliinaaxs_</a></p>
-    </li>
-  </div> 
-</body>   
-
-<div className="bg-gradient-to-b from-marrom to-amber-950 pt-8 pb-8 text-sm mt-auto w-full flex">
+      <div className="bg-gradient-to-b from-marrom to-amber-950 pt-8 pb-8 text-sm mt-auto w-full flex">
       <a href="/"><img className="w-32 lg:w-64  border-r-2 border-gray-300 mr-10" Link src={Logo} alt="logo"/></a>
         
         <ol className=" lg:pr-10"> 
@@ -162,9 +191,5 @@ function Integrantes() {
         </ol>
       </div>
     </div>
-    </div>
-    </div>
-  );
+  )
 }
-
-export default Integrantes
