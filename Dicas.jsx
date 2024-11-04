@@ -69,83 +69,95 @@ export default function Dicas() {
       </div>   
       <h1 className="mt-5 px-8 font-semibold text-[20px] lg:text-[40px] text-title_green mb-10 lg:mb-16 lg:mt-16 lg:pl-[40%]">Dicas produtivas:</h1>
       {/* Vídeo Responsivo */}
-      <div className="flex justify-center">
+      <div className="bg-black py-20 mx-10 mb-24 ">
+          <div className="flex justify-center">
+          <iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+            <iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe><iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe><iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>        
 
-      <iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/watch?v=Cu_rLGgsHRc" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo1"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe>
-
-        <iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/watch?v=YnZIK3pBQps&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=2" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo2"
-        frameBorder="0"
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe>
-
-        <iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/watch?v=2qTmt_0z2Lg&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=3" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo3"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe><iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/watch?v=uYKsesMbssE&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=4" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo4"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe>        
-
+          </div>
+          
+          <div className="flex justify-center">
+          <iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+            <iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe><iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe><iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe> 
+          </div>
+          <div className="flex justify-center">
+          <iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe><iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe> 
+            <iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe><iframe
+            className="w-96 h-64  border-8 "
+            src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
+            title="Vídeo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe> 
+          </div>
       </div>
-    <hr />
-    <div className="flex justify-center">
-    <iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/watch?v=d9fkhH7uocg&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=5" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe>
-        <iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/watch?v=mp83kEAakoA&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=6" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe><iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/watch?v=7wuQl8gKe-I&list=PL3YmOr7gNVtqlhSAzzZ8Ed9_WZroYrPK0&index=7" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe><iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe> 
-    </div>
-    <div className="flex justify-center">
-    <iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe><iframe
-        className="w-96 h-64  border-8 "
-        src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
-        title="Vídeo"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe> 
-    </div>
+      
     <div>
 
 

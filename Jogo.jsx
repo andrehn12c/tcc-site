@@ -66,51 +66,21 @@ function Funcionamento() {
       {/*Banner*/}
     <div>
       </div>   
-      <h1 className="mt-5 px-8 font-semibold text-[20px] lg:text-[40px] text-title_green mb-10 lg:mb-16 lg:mt-16 lg:pl-[380px]">Funcionamento</h1>
+      <h1 className="mt-5 px-8 font-semibold text-[20px] lg:text-[60px] text-title_green mb-10 lg:mb-16 lg:mt-16 lg:pl-[240px]">Jogo</h1>
       {/* Vídeo Responsivo */}
-      <div className=" mx-10 flex ">
+      <div className=" mx-10 flex mb-10">
         <iframe
-          className="w-96 h-52 lg:w-[35%] lg:h-[400px] rounded-2xl border-8 border-dark_green lg:ml-80"
+          className="w-96 h-52 lg:w-[50%] lg:h-[500px] rounded-2xl border-8 border-dark_green lg:ml-40"
           src="https://www.youtube.com/embed/bv3hXOCfdAw" // Substitua pelo URL do vídeo do YouTube
           title="Vídeo"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
 
-        <ul className="text-[10px] list-decimal my-10 text-nowrap lg:text-[20px] lg:my-20 lg:ml-10 hidden lg:inline">
-          <li className="mb-4 lg:mb-8"><p>Antes de tudo separe os ingredientes que serão usados na compostagem; </p></li>
-          <li className="mb-4 lg:mb-8"><p>Coloque os ingredientes no dispenser de forma igualada de cada lado; </p></li>
-          <li className="mb-4 lg:mb-8"><p>Ligue a composteira e aguarde o tempo indicado;</p></li>
-        </ul>
-      </div>
-
-      <div className="px-10 lg:flex  lg:justify-center lg:gap-10 lg:mt-10 lg:mx-72 ">
         
-      <ul className="text-[10px] list-decimal my-10 text-nowrap lg:text-[20px] lg:my-20 lg:ml-10 lg:hidden">
-          <li className="mb-4 lg:mb-8"><p>Antes de tudo separe os ingredientes que serão usados na compostagem; </p></li>
-          <li className="mb-4 lg:mb-8"><p>Coloque os ingredientes no dispenser de forma igualada de cada lado; </p></li>
-          <li className="mb-4 lg:mb-8"><p>Ligue a composteira e aguarde o tempo indicado;</p></li>
-        </ul>
-        <ul className="list-disc mb-8 lg:mb-16 lg:bg-gradient-to-r lg:from-green-500 lg:to-green-700 from-25%  lg:list-inside lg:p-10 lg:rounded-2xl">  
-          <h2 className="font-bold text-[14px] mb-2 lg:text-[24px]">Instruções de uso:</h2>
-          <li className="text-[10px] lg:text-[20px] lg:mb-4">Não deixe no alcance de crianças</li>
-          <li className="text-[10px] lg:text-[20px] lg:mb-4">Não interfira quando o processo de compostagem começar</li>
-          <li className="text-[10px] lg:text-[20px] lg:mb-4">Quando o processo acabar, tire todo o produto e limpe para o próximo </li>
-        </ul>
-
-        <ul className="list-disc mb-8 lg:mb-16 lg:bg-gradient-to-r lg:from-green-500 lg:to-green-700 from-25%  lg:list-inside lg:p-10 lg:rounded-2xl">  
-          <h2 className="font-bold text-[14px] mb-2 lg:text-[24px]">Para limpeza:</h2>
-          <li className="text-[10px] lg:text-[20px] lg:mb-4">Tire da tomada para evitar acidentes com as lâminas e com o calor</li>
-          <li className="text-[10px] lg:text-[20px] lg:mb-4">Use um pano fino para limpar as laterais e as lâminas</li>
-        </ul>
-
-        <ul className="list-disc mb-8 lg:mb-16 lg:bg-gradient-to-r lg:from-green-500 lg:to-green-700 from-25%  lg:list-inside lg:p-10 lg:rounded-2xl">  
-          <h2 className="font-bold text-[14px] mb-2 lg:text-[24px]"> Cuidados:</h2>
-          <li className="text-[10px] lg:text-[20px] lg:mb-4">Use luvas para evitar cortes e queimaduras</li>
-          <li className="text-[10px] lg:text-[20px] lg:mb-4">Não coloque as mãos no dispenser enquanto estiver ligado</li>
-          <li className="text-[10px] lg:text-[20px] lg:mb-4">Não encoste no aparelho quando o processo estiver ativado, perigo de queimações</li>
-        </ul>
       </div>
+
+      
 
       <div className="bg-gradient-to-b from-marrom to-amber-950 pt-8 pb-8 text-sm mt-auto w-full flex">
       <a href="/"><img className="w-32 lg:w-64  border-r-2 border-gray-300 mr-10" Link src={Logo} alt="logo"/></a>
